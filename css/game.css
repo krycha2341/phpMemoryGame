@@ -1,0 +1,111 @@
+body{
+  color: white;
+  background-image: url("http://localhost/phpgra/img/diagonal.png");
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  margin: 0;
+
+}
+
+a:link    { color: #36b03c; text-decoration: none; }
+a:visited { color: #36b03c; }
+a:active  { color: #36b03c; }
+a:hover   { color: #37b93d; text-decoration: underline; }
+
+.container{
+  width: 1280px;
+  height: 720px;
+  margin: 70px auto auto auto;
+  background-color: rgb(107, 210, 161);
+  text-align: center;
+  border: 2px solid grey;
+  border-radius: 10px;
+  -webkit-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+  -moz-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+  box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+}
+
+.login, .register{
+  margin-top: 80px;
+}
+
+input[type=text],
+input[type=password]
+{
+	width: 300px;
+	background-color: #efefef;
+	color: #666;
+	border: 2px solid #ddd;
+	border-radius: 5px;
+	font-size: 20px;
+	padding: 15px 10px;
+	box-sizing: border-box;
+	outline: none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+input[type=submit]{
+	width: 300px;
+	background-color: #36b03c;
+	font-size: 20px;
+	color: white;
+	padding: 15px 10px;
+	margin-top: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	letter-spacing: 2px;
+	outline: none;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 10%;
+}
+
+nav{
+  background: rgb(107, 210, 161);
+  width:100%;
+  margin: 0;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-left: 2px solid grey;
+  border-top: 2px solid grey;
+  border-bottom: 2px solid grey;
+}
+
+.list__items{
+  text-decoration: none;
+  list-style: none;
+  width: 100%;
+}
+
+.list__items li{
+  display: inline-block;
+  padding: 0px 20px;
+  transition: all 0.3s ease 0s;
+  cursor: default;
+}
+
+button{
+  height: 67px;
+  padding: 9px 25px;
+  background-color: rgb(107, 210, 161);
+  border-left: none;
+  border-right: 2px solid grey;
+  border-top-right-radius: 5px;
+  border-top: 2px solid grey;
+  border-bottom: 2px solid grey;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 700;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover{
+  background-color: rgba(107, 210, 161,0.9);
+}
